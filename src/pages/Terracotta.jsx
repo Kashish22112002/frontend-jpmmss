@@ -1,8 +1,8 @@
-// ProductGrid.jsx
 import React from "react";
 import ProductCard from "./ProductCard";
+import products from "./Products";
 
-const ProductGrid = ({ products }) => {
+const ProductGrid = () => {
   return (
     <section className="px-6 container py-12 bg-gray-100 mx-auto">
       <div className="container mx-auto">
