@@ -5,6 +5,7 @@ import ViewProduct from "./components/Products/ViewProduct";
 import Home from "./pages/Home";
 import ContactForm from "./pages/ContactForm";
 import Footer from "./components/Footer";
+import ProductGrid from "./components/Products/ProductGrid";
 
 function App() {
   return (

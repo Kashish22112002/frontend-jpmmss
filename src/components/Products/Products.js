@@ -6,13 +6,13 @@ const products = [
       image: "https://via.placeholder.com/150",
       details: "Detailed description of Product 1",
       claspType: "Lobster Clasp",
-      materialType: "Terracotta",
+      materialType: "terracota",
       metalType: "No Metal Type",
       gemType: "No Gemstone",
       occasionType: "Wedding, Birthday",
       countryOfOrigin: "India",
       about:
-        "Handmade - Terracotta jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
+        "Handmade - terracota jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
     },
     {
       id: 2,
@@ -21,13 +21,13 @@ const products = [
       image: "https://via.placeholder.com/150",
       details: "Detailed description of Product 2",
       claspType: "Lobster Clasp",
-      materialType: "Terracotta",
+      materialType: "terracota",
       metalType: "No Metal Type",
       gemType: "No Gemstone",
       occasionType: "Wedding, Birthday",
       countryOfOrigin: "India",
       about:
-        "Handmade - Terracotta jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
+        "Handmade - terracota jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
     },
     {
       id: 3,
@@ -36,13 +36,13 @@ const products = [
       image: "https://via.placeholder.com/150",
       details: "Detailed description of Product 3",
       claspType: "Lobster Clasp",
-      materialType: "Terracotta",
+      materialType: "terracota",
       metalType: "No Metal Type",
       gemType: "No Gemstone",
       occasionType: "Wedding, Birthday",
       countryOfOrigin: "India",
       about:
-        "Handmade - Terracotta jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
+        "Handmade - terracota jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
     },
     {
       id: 4,
@@ -51,13 +51,13 @@ const products = [
       image: "https://via.placeholder.com/150",
       details: "Detailed description of Product 4",
       claspType: "Lobster Clasp",
-      materialType: "Terracotta",
+      materialType: "terracota",
       metalType: "No Metal Type",
       gemType: "No Gemstone",
       occasionType: "Wedding, Birthday",
       countryOfOrigin: "India",
       about:
-        "Handmade - Terracotta jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
+        "Handmade - terracota jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
     },
     {
       id: 5,
@@ -66,13 +66,13 @@ const products = [
       image: "https://via.placeholder.com/150",
       details: "Detailed description of Product 4",
       claspType: "Lobster Clasp",
-      materialType: "Terracotta",
+      materialType: "terracota",
       metalType: "No Metal Type",
       gemType: "No Gemstone",
       occasionType: "Wedding, Birthday",
       countryOfOrigin: "India",
       about:
-        "Handmade - Terracotta jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
+        "Handmade - terracota jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
     },
     {
       id: 6,
@@ -81,13 +81,13 @@ const products = [
       image: "https://via.placeholder.com/150",
       details: "Detailed description of Product 4",
       claspType: "Lobster Clasp",
-      materialType: "Terracotta",
+      materialType: "terracota",
       metalType: "No Metal Type",
       gemType: "No Gemstone",
       occasionType: "Wedding, Birthday",
       countryOfOrigin: "India",
       about:
-        "Handmade - Terracotta jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
+        "Handmade - terracota jewelries are handmade and no machines are used in the whole process. Colour Difference - The colour of the actual product can be different from what you see in the images.",
     },
   ];
 

@@ -1,31 +1,32 @@
 import React from "react";
-import projectDetails from "../constant";
-import { RiShoppingBasketLine } from "react-icons/ri";
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../assets/logo-white.png";
+import { BsBasket } from "react-icons/bs";
+import { RiShoppingBasketLine } from "react-icons/ri";
 
 const Navbar = () => {
   const navigate = useNavigate();
+
   const handleNavigation = (e) => {
     const selectedValue = e.target.value;
     switch (selectedValue) {
-      case "products":
-        navigate("/products");
+      case "all":
+        navigate("/");
         break;
-      case "category1":
-        navigate("/category1");
+      case "terracotta":
+        navigate("/products/terracotta");
         break;
-      case "category2":
-        navigate("/category2");
+      case "jute":
+        navigate("/products/jute");
         break;
-      case "category3":
-        navigate("/category3");
+      case "banana":
+        navigate("/products/banana");
         break;
-      case "category4":
-        navigate("/category4");
+      case "moonj":
+        navigate("/products/moonj");
         break;
-      case "category5":
-        navigate("/category5");
+      case "macrame":
+        navigate("/products/macrame");
         break;
       default:
         navigate("/");
@@ -54,20 +55,23 @@ const Navbar = () => {
                 className="text-orange-50 bg-transparent block w-full px-4 hover:border-gray-400 outline-none"
               >
                 <option className="text-gray-700">Products</option>
-                <option value="category1" className="text-gray-700">
-                  Category 1
+                <option value="all" className="text-gray-700">
+                  Show All
                 </option>
-                <option value="category2" className="text-gray-700">
-                  Category 2
+                <option value="terracotta" className="text-gray-700">
+                  Terracotta
                 </option>
-                <option value="category3" className="text-gray-700">
-                  Category 3
+                <option value="jute" className="text-gray-700">
+                  Jute
                 </option>
-                <option value="category4" className="text-gray-700">
-                  Category 4
+                <option value="banana" className="text-gray-700">
+                  Banana
                 </option>
-                <option value="category5" className="text-gray-700">
-                  Category 5
+                <option value="moonj" className="text-gray-700">
+                  Moonj
+                </option>
+                <option value="macrame" className="text-gray-700">
+                  Macrame
                 </option>
               </select>
             </li>
@@ -82,12 +86,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
-                href={window.location.href !== "" ? "/" : "#testimonials"}
-                className="hover:underline"
-              >
+              <Link to="/testimonials" className="hover:underline">
                 Testimonials
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
