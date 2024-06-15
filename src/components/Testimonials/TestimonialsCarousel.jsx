@@ -36,7 +36,7 @@ const TestimonialsCarousel = () => {
   };
 
   return (
-    <div className="bg-orange-50 py-12">
+    <div className="bg-orange-50 py-12 border-t-2 border-green-800">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-green-800 mb-8">Testimonials</h2>
         <Slider {...settings}>

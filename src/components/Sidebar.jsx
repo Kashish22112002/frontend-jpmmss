@@ -19,11 +19,11 @@ const Sidebar = () => {
         <div className=" p-4 lg:pt-8">
           <h2 className="text-2xl font-bold mb-6">Categories</h2>
           <ul className="space-y-4 text-xl font-thin">
-            <li className="">CATEGORY_1</li>
-            <li className="">CATEGORY_2</li>
-            <li className="">CATEGORY_3</li>
-            <li className="">CATEGORY_4</li>
-            <li className="">CATEGORY_5</li>
+            <li className="">Home</li>
+            <li className="">Products</li>
+            <li className="">About</li>
+            <li className="">Contact</li>
+            <li className="">Testimonials</li>
           </ul>
         </div>
       </div>

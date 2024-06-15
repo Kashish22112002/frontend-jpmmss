@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-orange-50 text-green-800 py-8 border-t-4">
+    <footer className="bg-orange-50 text-green-800 py-8 border-t-2 border-red-900">
       <div className="container mx-auto px-4 flex flex-row justify-evenly">
         <img src={logo} alt="" className='w-24 hidden md:block' />
         <div className="mb-6 md:mb-0">

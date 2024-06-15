@@ -1,6 +1,7 @@
 // ProductItem.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import ShowMoreBtn from '../ShowMoreBtn';
 
 const ProductItem = ({ product }) => {
 
@@ -19,11 +20,11 @@ const ProductItem = ({ product }) => {
       />
       <div className="text-center">
         <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
-        <p className="text-gray-700">Rs.{product.price}</p>
         <p>⭐⭐⭐⭐</p>
-        <button onClick={handleBuyNow} className="bg-green-800 hover:bg-green-900 text-white font-semibold px-4 py-2 rounded mt-2">
-          Buy Now
-        </button>
+        <div className="flex items-center justify-around mt-4">
+          <p className="text-gray-600 mt-2 font-bold">Rs.{product.price}</p>
+            <ShowMoreBtn onClick={handleBuyNow} />
+        </div>
       </div>
     </div>
   );

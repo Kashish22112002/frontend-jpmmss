@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import ProductItem from './ProductItem';
-import { NextArrow, PrevArrow } from './CustomArrows';
+import { NextArrow, PrevArrow } from '../CustomArrows';
 
 const ProductCarousel = ({ products }) => {
   const settings = {

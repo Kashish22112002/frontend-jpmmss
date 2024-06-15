@@ -1,8 +1,8 @@
 import React from "react";
 import Hero from "../components/Hero";
-import ProductGrid from "../components/ProductGrid";
+import ProductGrid from "../components/Products/ProductGrid";
 import Sidebar from "../components/Sidebar";
-import ProductCarousel from "../components/ProductCarousel";
+import ProductCarousel from "../components/Products/ProductCarousel";
 import products from "../components/Products/Products";
 import TestimonialsCarousel from "../components/Testimonials/TestimonialsCarousel";
 
@@ -16,13 +16,10 @@ const Home = () => {
         </h2>
         <ProductCarousel products={products} />
       </div>
-      <div className="flex">
-        <Sidebar />
-        <div className="flex-grow">
           <ProductGrid />
-        </div>
+      <div id="testimonials">
+        <TestimonialsCarousel />
       </div>
-      <TestimonialsCarousel />
     </>
   );
 };
