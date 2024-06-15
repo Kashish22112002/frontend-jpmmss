@@ -1,21 +1,18 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import ProductGrid from "./components/ProductGrid";
-import Sidebar from "./components/Sidebar";
+import ViewProduct from "./components/ViewProduct";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
-      <Hero />
-      <div className="flex">
-        <Sidebar />
-        <div className="flex-grow">
-          <ProductGrid />
-        </div>
-      </div>
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/product/:id" element={<ViewProduct />} />
+      </Routes>
+    </Router>
   );
 }
 
