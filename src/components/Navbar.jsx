@@ -1,7 +1,8 @@
-import React from 'react';
-import projectDetails from '../constant';
+import React from "react";
+import projectDetails from "../constant";
 import { RiShoppingBasketLine } from "react-icons/ri";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
@@ -9,21 +10,57 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-bold ">
           <Link to="/">
-          {projectDetails.NAME}
+          <img src={logo} alt="" className="max-w-16" /> 
           </Link>
         </div>
         <div>
-          <ul className="flex space-x-4">
-            <li><Link to="/" className="text-gray-700">Home</Link></li>
-            <li><Link to="/" className="text-gray-700">Products</Link></li>
-            <li><Link to="#" className="text-gray-700">About</Link></li>
-            <li><Link to="#" className="text-gray-700">Contact</Link></li>
+          <ul className="flex space-x-8 text-gray-800 ">
+            <li>
+              <Link
+                to="/"
+                className="hover:underline"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="#/products"
+                className="hover:underline"
+              >
+                Products
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="#"
+                className="hover:underline"
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                className="hover:underline"
+              >
+                Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="#"
+                className="hover:underline"
+              >
+                Testimonials
+              </Link>
+            </li>
           </ul>
         </div>
-        <RiShoppingBasketLine className='text-2xl border bg-slate-100' />
+        <RiShoppingBasketLine className="text-4xl text-red-800" />
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

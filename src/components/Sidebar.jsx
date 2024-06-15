@@ -8,7 +8,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div>
+    <div className='hidden md:block'>
       <div className="lg:hidden flex items-center justify-between bg-green-800 text-orange-50 p-4">
         <div className=" text-xl font-bold">Menu</div>
         <button onClick={toggleSidebar} className="">

@@ -1,6 +1,6 @@
 const projectDetails = {
-    NAME: "APP NAME",
-    DESC: "BEST SELLERS FROM ALL ACROSS INDIA"
+    NAME: "jpmmss",
+    DESC: "Best Artisans All Across India"
 }
 
 export default projectDetails;
