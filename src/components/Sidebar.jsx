@@ -24,6 +24,7 @@ const Sidebar = () => {
             <li className="">About</li>
             <li className="">Contact</li>
             <li className="">Testimonials</li>
+
           </ul>
         </div>
       </div>
