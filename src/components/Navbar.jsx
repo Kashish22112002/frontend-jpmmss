@@ -1,39 +1,10 @@
+// Navbar.jsx
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../assets/logo-white.png";
-import { BsBasket } from "react-icons/bs";
 import { RiShoppingBasketLine } from "react-icons/ri";
 
-const Navbar = () => {
-  const navigate = useNavigate();
-
-  const handleNavigation = (e) => {
-    const selectedValue = e.target.value;
-    switch (selectedValue) {
-      case "all":
-        navigate("/");
-        break;
-      case "terracotta":
-        navigate("/products/terracotta");
-        break;
-      case "jute":
-        navigate("/products/jute");
-        break;
-      case "banana":
-        navigate("/products/banana");
-        break;
-      case "moonj":
-        navigate("/products/moonj");
-        break;
-      case "macrame":
-        navigate("/products/macrame");
-        break;
-      default:
-        navigate("/");
-        break;
-    }
-  };
-
+const Navbar = ({ handleNavigation }) => {
   return (
     <nav className="border-b-2 shadow-black py-4 bg-green-800">
       <div className="container mx-auto flex justify-between items-center">
@@ -54,7 +25,6 @@ const Navbar = () => {
                 onChange={handleNavigation}
                 className="text-orange-50 bg-transparent block w-full px-4 hover:border-gray-400 outline-none"
               >
-                <option className="text-gray-700">Products</option>
                 <option value="all" className="text-gray-700">
                   Show All
                 </option>

@@ -6,7 +6,7 @@ import ProductCarousel from "../components/Products/ProductCarousel";
 import products from "../components/Products/Products";
 import TestimonialsCarousel from "../components/Testimonials/TestimonialsCarousel";
 
-const Home = () => {
+const Home = ({ filteredProducts }) => {
   return (
     <>
       <Hero />
@@ -16,7 +16,7 @@ const Home = () => {
         </h2>
         <ProductCarousel products={products} />
       </div>
-          <ProductGrid />
+      <ProductGrid products={filteredProducts} />
       <div id="testimonials">
         <TestimonialsCarousel />
       </div>
